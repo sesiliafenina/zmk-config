@@ -5,7 +5,7 @@
         default_layer {
             bindings = <
                 &none      &kp TAB    &kp CAPS   &none          &none            &kp ESC         &kp ENTER    &none
-                &kp LCTRL  &none      &none      &mo 1          &none            &kp KATAKANA    &kp ENTER    &none
+                &kp LCTRL  &none      &none      &mo 1          &none            &none           &kp ENTER    &none
                 &kp N1     &kp Q      &kp A      &kp Z          &none            &none           &none        &none
                 &kp N2     &kp W      &kp S      &kp X          &none            &none           &none        &none
                 &none      &kp LSHIFT &none      &none          &none            &kp RSHIFT      &kp COMMA    &none
