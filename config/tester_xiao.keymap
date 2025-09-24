@@ -6,22 +6,22 @@
 
         default_layer {
             bindings = <
-                &kp N4      &kp TAB     &mo CAPS    &none       &none        &kp ESC      &kp ENTER    &none
-                &kp LCTRL   &none       &none       &mo 1       &none        &none        &kp ENTER    &none
-                &kp N1      &kp Q       &kp A       &kp Z       &none        &none        &none        &none
-                &kp N2      &kp W       &kp S       &kp X       &none        &none        &none        &none
-                &none       &kp LSHIFT  &none       &none       &none        &kp RSHIFT   &kp COMMA    &none
-                &none       &none       &none       &none       &none        &none        &kp LALT     &none
-                &none       &none       &none       &kp LCMD    &none        &none        &none        &none
-                &kp N3      &kp E       &kp D       &kp C       &kp KP_DOT   &none        &kp LBKT     &none
-                &kp N4      &kp R       &kp F       &kp V       &kp N0       &none        &kp RBKT     &kp BSPC
-                &kp N5      &kp T       &kp G       &kp B       &kp LEFT     &none        &none        &none
-                &kp N6      &kp Y       &kp H       &kp N       &kp RIGHT    &kp UP       &none        &none
-                &kp N7      &kp U       &kp J       &kp M       &kp DOWN     &none        &none        &none
-                &kp N8      &kp I       &kp K       &kp COMMA   &kp KP_1     &kp KP_4     &kp KP_7     &kp DEL
-                &kp N9      &kp O       &kp L       &kp DOT     &kp KP_2     &kp KP_5     &kp KP_8     &kp EQUAL
-                &kp N0      &kp P       &kp SLASH   &kp SEMI    &kp KP_3     &kp KP_6     &kp KP_9     &kp KP_SLASH
-                &kp MINUS   &none       &kp DOT     &kp SPACE   &kp KP_ENTER &kp KP_PLUS  &kp KP_MINUS &kp KP_ASTERISK
+    &kp N4      &kp TAB     &mo CAPS    &none       &none        &kp ESC      &kp ENTER    &none
+    &kp LCTRL   &none       &none       &mo 1       &none        &none        &kp ENTER    &none
+    &kp N1      &kp Q       &kp A       &kp Z       &none        &none        &none        &none
+    &kp N2      &kp W       &kp S       &kp X       &none        &none        &none        &none
+    &none       &kp LSHIFT  &none       &none       &none        &kp RSHIFT   &kp COMMA    &none
+    &none       &none       &none       &none       &none        &none        &kp LALT     &none
+    &none       &none       &none       &kp LCMD    &none        &none        &none        &none
+    &kp N3      &kp E       &kp D       &kp C       &kp KP_DOT   &none        &kp LBKT     &none
+    &kp N4      &kp R       &kp F       &kp V       &kp N0       &none        &kp RBKT     &kp BSPC
+    &kp N5      &kp T       &kp G       &kp B       &kp LEFT     &none        &none        &none
+    &kp N6      &kp Y       &kp H       &kp N       &kp RIGHT    &kp UP       &none        &none
+    &kp N7      &kp U       &kp J       &kp M       &kp DOWN     &none        &none        &none
+    &kp N8      &kp I       &kp K       &kp COMMA   &kp KP_1     &kp KP_4     &kp KP_7     &kp DEL
+    &kp N9      &kp O       &kp L       &kp DOT     &kp KP_2     &kp KP_5     &kp KP_8     &kp EQUAL
+    &kp N0      &kp P       &kp SLASH   &kp SEMI    &kp KP_3     &kp KP_6     &kp KP_9     &kp KP_SLASH
+    &kp MINUS   &none       &kp DOT     &kp SPACE   &kp KP_ENTER &kp KP_PLUS  &kp KP_MINUS &kp KP_ASTERISK
             >
         };
     };
