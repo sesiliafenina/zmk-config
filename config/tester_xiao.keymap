@@ -22,7 +22,7 @@
                 &kp N9      &kp O       &kp L       &kp DOT     &kp KP_2     &kp KP_5     &kp KP_8     &kp EQUAL
                 &kp N0      &kp P       &kp SLASH   &kp SEMI    &kp KP_3     &kp KP_6     &kp KP_9     &kp KP_SLASH
                 &kp MINUS   &none       &kp DOT     &kp SPACE   &kp KP_ENTER &kp KP_PLUS  &kp KP_MINUS &kp KP_ASTERISK
-            >
+            >;
         };
     };
 };
