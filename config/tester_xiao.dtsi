@@ -16,7 +16,7 @@
 
     kscan0: kscan {
         compatible = "zmk,kscan-gpio-matrix";
-
+        diode-direction = "row2col";
         /* Rows = MCP23017 pins (0–15 → GPA0..GPA7, GPB0..GPB7) */
         row-gpios = <&mcp0 0 0>, <&mcp0 0 1>, <&mcp0 0 2>, <&mcp0 0 3>,
                     <&mcp0 0 4>, <&mcp0 0 5>, <&mcp0 0 6>, <&mcp0 0 7>,
@@ -34,7 +34,6 @@
                     <&gpio0 13 0>,  /* Column 6 */
                     <&gpio0 14 0>;  /* Column 7 */
 
-        /*diode-direction = "COL2ROW"; */
         matrix-rows = <16>;
         matrix-columns = <8>;
     };
