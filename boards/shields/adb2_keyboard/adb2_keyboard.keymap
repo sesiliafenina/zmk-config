@@ -1,0 +1,42 @@
+/ {
+    keymap {
+        compatible = "zmk,keymap";
+
+        default_layer {
+            bindings = <
+                /* Row 0 */
+                &none      &kp TAB    &kp CAPS   &none          &none            &kp ESC         &kp ENTER    &none
+                /* Row 1 */
+                &kp LCTRL  &none      &none      &mo 1          &none            &kp KATAKANA    &kp ENTER    &none
+                /* Row 2 */
+                &kp N1     &kp Q      &kp A      &kp Z          &none            &none           &none        &none
+                /* Row 3 */
+                &kp N2     &kp W      &kp S      &kp X          &none            &none           &none        &none
+                /* Row 4 */
+                &none      &kp LSHIFT &none      &none          &none            &kp RSHIFT      &kp COMMA    &none
+                /* Row 5 */
+                &none      &none      &none      &none          &none            &none           &kp LALT     &kp PIPE
+                /* Row 6 */
+                &none      &none      &none      &kp LGUI       &none            &none           &kp COLON    &none
+                /* Row 7 */
+                &kp N3     &kp E      &kp D      &kp C          &kp KP_DOT       &none           &kp LBKT     &kp CARET
+                /* Row 8 */
+                &kp N4     &kp R      &kp F      &kp V          &kp N0           &none           &kp RBKT     &kp DEL
+                /* Row 9 */
+                &kp N5     &kp T      &kp G      &kp B          &kp LEFT         &none           &none        &none
+                /* Row 10 */
+                &kp N6     &kp Y      &kp H      &kp N          &kp RIGHT        &kp UP          &none        &none
+                /* Row 11 */
+                &kp N7     &kp U      &kp J      &kp M          &kp DOWN         &none           &none        &none
+                /* Row 12 */
+                &kp N8     &kp I      &kp K      &kp COMMA      &kp KP_1         &kp KP_4        &kp KP_7     &kp DEL
+                /* Row 13 */
+                &kp N9     &kp O      &kp L      &kp DOT        &kp KP_2         &kp KP_5        &kp KP_8     &kp EQUAL
+                /* Row 14 */
+                &kp N0     &kp P      &kp SLASH  &kp SEMICOLON  &kp KP_3         &kp KP_6        &kp KP_9     &kp KP_SLASH
+                /* Row 15 */
+                &kp MINUS  &kp AT     &kp DOT    &kp SPC        &kp KP_ENTER     &kp KP_PLUS     &kp KP_MINUS &kp KP_ASTERISK
+            >;
+        };
+    };
+};

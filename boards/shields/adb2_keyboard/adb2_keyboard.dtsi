@@ -1,0 +1,40 @@
+&i2c0 {
+    status = "okay";
+
+    mcp0: mcp23017@20 {
+        compatible = "microchip,mcp23017";
+        reg = <0x20>;        /* MCP23017 I²C address (A0–A2 = GND) */
+        gpio-controller;
+        #gpio-cells = <2>;
+    };
+};
+
+/ {
+    chosen {
+        zmk,kscan = &kscan0;
+    };
+
+    kscan0: kscan {
+        compatible = "zmk,kscan-gpio-matrix";
+
+        /* Rows = MCP23017 pins (0–15 → GPA0..GPA7, GPB0..GPB7) */
+        row-gpios = <&mcp0 0 0>, <&mcp0 1 0>, <&mcp0 2 0>, <&mcp0 3 0>,
+                    <&mcp0 4 0>, <&mcp0 5 0>, <&mcp0 6 0>, <&mcp0 7 0>,
+                    <&mcp0 8 0>, <&mcp0 9 0>, <&mcp0 10 0>, <&mcp0 11 0>,
+                    <&mcp0 12 0>, <&mcp0 13 0>, <&mcp0 14 0>, <&mcp0 15 0>;
+
+        /* Cols = GPIOs from the XIAO (replace PINx with actual pins used) */
+        col-gpios = <&gpio0 2 0>,   /* Column 0 */
+                    <&gpio0 3 0>,  /* Column 1 */
+                    <&gpio0 28 0>,  /* Column 2 */
+                    <&gpio0 29 0>,  /* Column 3 */
+                    <&gpio0 11 0>,  /* Column 4 */
+                    <&gpio0 12 0>,  /* Column 5 */
+                    <&gpio0 13 0>,  /* Column 6 */
+                    <&gpio0 14 0>;  /* Column 7 */
+
+        diode-direction = "COL2ROW"; /* flip if wiring is reversed */
+        matrix-rows = <16>;
+        matrix-columns = <8>;
+    };
+};
