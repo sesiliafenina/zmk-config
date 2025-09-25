@@ -9,12 +9,8 @@
     };
 };
 
-/ {
-    chosen {
-        zmk,kscan = &kscan0;
-    };
-
-    kscan0: kscan_matrix {
+// Override the existing kscan0 from tester_xiao shield
+&kscan0 {
         compatible = "zmk,kscan-gpio-matrix";
         diode-direction = "row2col";
         wakeup-source;
@@ -35,7 +31,6 @@
                     <&gpio0 13 0>,  /* Column 6 */
                     <&gpio0 14 0>;  /* Column 7 */
 
-        matrix-rows = <16>;
-        matrix-columns = <8>;
-    };
+    matrix-rows = <16>;
+    matrix-columns = <8>;
 };
