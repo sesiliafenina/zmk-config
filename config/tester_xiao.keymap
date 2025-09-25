@@ -23,7 +23,7 @@
                 &kp N5      &kp T       &kp G       &kp B       &kp LEFT     &none        &none        &none
                 &kp N6      &kp Y       &kp H       &kp N       &kp RIGHT    &kp UP       &none        &none
                 &kp N7      &kp U       &kp J       &kp M       &kp DOWN     &none        &none        &none
-                &kp N8      &kp I       &kp K       &kp COMMA   &kp KP_1     &kp KP_4     &kp KP_7     &kp DELETE
+                &kp N8      &kp I       &kp K       &kp COMMA   &kp KP_1     &kp KP_4     &kp KP_7     &none
                 &kp N9      &kp O       &kp L       &kp DOT     &kp KP_2     &kp KP_5     &kp KP_8     &kp EQUAL
                 &kp N0      &kp P       &kp SLASH   &kp SEMI    &kp KP_3     &kp KP_6     &kp KP_9     &kp KP_SLASH
                 &kp MINUS   &none       &kp DOT     &kp SPACE   &kp KP_ENTER &kp KP_PLUS  &kp KP_MINUS &kp KP_ASTERISK
