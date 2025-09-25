@@ -1,3 +1,8 @@
+// Disable any existing kscan from tester_xiao shield
+&default_kscan {
+    status = "disabled";
+};
+
 &i2c0 {
     status = "okay";
 
@@ -14,9 +19,10 @@
         zmk,kscan = &kscan0;
     };
 
-    kscan0: kscan {
+    kscan0: kscan_matrix {
         compatible = "zmk,kscan-gpio-matrix";
         diode-direction = "row2col";
+        wakeup-source;
         /* Rows = MCP23017 pins (0–15 → GPA0..GPA7, GPB0..GPB7) */
         row-gpios = <&mcp0 0 0>, <&mcp0 0 1>, <&mcp0 0 2>, <&mcp0 0 3>,
                     <&mcp0 0 4>, <&mcp0 0 5>, <&mcp0 0 6>, <&mcp0 0 7>,
