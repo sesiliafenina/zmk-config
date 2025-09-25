@@ -1,8 +1,3 @@
-// Disable any existing kscan from tester_xiao shield
-&default_kscan {
-    status = "disabled";
-};
-
 &i2c0 {
     status = "okay";
 
