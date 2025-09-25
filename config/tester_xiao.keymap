@@ -3,7 +3,6 @@
 #include <dt-bindings/zmk/bt.h>
 
 #define DEFAULT     0
-#define CAPS_LAYER  1
 
 / {
     keymap {
