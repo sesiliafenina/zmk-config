@@ -3,6 +3,7 @@
 #include <dt-bindings/zmk/bt.h>
 
 #define DEFAULT     0
+#define CAPS_LAYER  1
 
 / {
     keymap {
@@ -26,6 +27,27 @@
                 &kp N9      &kp O       &kp L       &kp DOT     &kp KP_2     &kp KP_5     &kp KP_8     &kp EQUAL
                 &kp N0      &kp P       &kp SLASH   &kp SEMI    &kp KP_3     &kp KP_6     &kp KP_9     &kp KP_SLASH
                 &kp MINUS   &none       &kp DOT     &kp SPACE   &kp KP_ENTER &kp KP_PLUS  &kp KP_MINUS &kp KP_ASTERISK
+            >;
+        };
+
+        caps_layer {
+            bindings = <
+                &trans      &trans      &trans      &trans      &trans       &trans       &trans       &trans
+                &trans      &trans      &trans      &trans      &trans       &trans       &trans       &trans
+                &trans      &kp LS(Q)   &kp LS(A)   &kp LS(Z)   &trans       &trans       &trans       &trans
+                &trans      &kp LS(W)   &kp LS(S)   &kp LS(X)   &trans       &trans       &trans       &trans
+                &trans      &trans      &trans      &trans      &trans       &trans       &trans       &trans
+                &trans      &trans      &trans      &trans      &trans       &trans       &trans       &trans
+                &trans      &trans      &trans      &trans      &trans       &trans       &trans       &trans
+                &trans      &kp LS(E)   &kp LS(D)   &kp LS(C)   &trans       &trans       &trans       &trans
+                &trans      &kp LS(R)   &kp LS(F)   &kp LS(V)   &trans       &trans       &trans       &trans
+                &trans      &kp LS(T)   &kp LS(G)   &kp LS(B)   &trans       &trans       &trans       &trans
+                &trans      &kp LS(Y)   &kp LS(H)   &kp LS(N)   &trans       &trans       &trans       &trans
+                &trans      &kp LS(U)   &kp LS(J)   &kp LS(M)   &trans       &trans       &trans       &trans
+                &trans      &kp LS(I)   &kp LS(K)   &trans      &trans       &trans       &trans       &trans
+                &trans      &kp LS(O)   &kp LS(L)   &trans      &trans       &trans       &trans       &trans
+                &trans      &kp LS(P)   &trans      &trans      &trans       &trans       &trans       &trans
+                &trans      &trans      &trans      &trans      &trans       &trans       &trans       &trans
             >;
         };
     };
