@@ -9,11 +9,6 @@
     };
 };
 
-// Disable built-in kscan if it exists
-&kscan {
-    status = "disabled";
-};
-
 / {
     chosen {
         zmk,kscan = &custom_kscan;
