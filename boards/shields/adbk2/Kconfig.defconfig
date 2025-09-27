@@ -1,0 +1,6 @@
+if ADBK2
+
+config ZMK_KEYBOARD_NAME
+    default "ADB Keyboard II"
+
+endif
