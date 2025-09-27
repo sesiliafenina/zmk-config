@@ -29,14 +29,14 @@
 
 
         /* Cols = GPIOs from the XIAO (replace PINx with actual pins used) */
-        col-gpios = <&xiao_d 2 GPIO_ACTIVE_LOW>,   /* Column 0 */
-                    <&xiao_d 3 GPIO_ACTIVE_LOW>,  /* Column 1 */
-                    <&xiao_d 28 GPIO_ACTIVE_LOW>,  /* Column 2 */
-                    <&xiao_d 29 GPIO_ACTIVE_LOW>,  /* Column 3 */
-                    <&xiao_d 11 GPIO_ACTIVE_LOW>,  /* Column 4 */
-                    <&xiao_d 12 GPIO_ACTIVE_LOW>,  /* Column 5 */
-                    <&xiao_d 13 GPIO_ACTIVE_LOW>,  /* Column 6 */
-                    <&xiao_d 14 GPIO_ACTIVE_LOW>;  /* Column 7 */
+        col-gpios = <&xiao_d 0 GPIO_ACTIVE_LOW>,   /* Column 0 */
+                    <&xiao_d 1 GPIO_ACTIVE_LOW>,  /* Column 1 */
+                    <&xiao_d 2 GPIO_ACTIVE_LOW>,  /* Column 2 */
+                    <&xiao_d 3 GPIO_ACTIVE_LOW>,  /* Column 3 */
+                    <&xiao_d 6 GPIO_ACTIVE_LOW>,  /* Column 4 */
+                    <&xiao_d 7 GPIO_ACTIVE_LOW>,  /* Column 5 */
+                    <&xiao_d 8 GPIO_ACTIVE_LOW>,  /* Column 6 */
+                    <&xiao_d 9 GPIO_ACTIVE_LOW>;  /* Column 7 */
 
     };
 };
