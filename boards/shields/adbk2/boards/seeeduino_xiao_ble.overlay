@@ -10,4 +10,13 @@
         #gpio-cells = <2>;
         ngpios = <16>;
     };
+
+    ext2: mcp23017@21 {
+        compatible = "microchip,mcp230xx";
+        status = "okay";
+        gpio-controller;
+        reg = <0x21>;
+        #gpio-cells = <2>;
+        ngpios = <16>;
+    };
 };

@@ -1,0 +1,99 @@
+# ZMK Build artifacts
+build/
+.west/
+*.uf2
+*.hex
+*.bin
+*.elf
+
+# Zephyr
+zephyr/.cache/
+modules/
+
+# Hardware Design Files
+hardware/**/*.kicad_pcb-bak
+hardware/**/*.kicad_sch-bak
+hardware/**/*-backups/
+hardware/**/*.bak
+hardware/**/*.bck
+hardware/**/*.kicad_prl
+hardware/**/*.xml
+hardware/**/fp-info-cache
+hardware/**/*-cache.lib
+hardware/**/*.log
+
+# KiCad auto-save and backup files
+*-save.kicad_pcb
+*-save.kicad_sch
+*.kicad_pcb-bak
+*.kicad_sch-bak
+*~
+_autosave-*
+*.tmp
+*-save.pro
+*-save.kicad_pro
+
+# IDEs and Editors
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+*.code-workspace
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+.venv
+
+# Node
+node_modules/
+npm-debug.log
+yarn-error.log
+
+# OS-specific
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+Desktop.ini
+
+# Logs
+*.log
+logs/
+
+# Temporary files
+*.tmp
+*.temp
+*.bak
+*.swp
+*.swo
+
+# Documentation build
+_build/
+.doctrees/
+
+# Compiled Object files
+*.o
+*.ko
+*.obj
+*.elf
+
+# Archives
+*.zip
+*.tar.gz
+*.rar
+
+# Local configuration (if needed)
+.env
+.env.local

@@ -29,15 +29,15 @@
                     <&ext1 15 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>;
 
 
-        /* Cols = GPIOs from the XIAO (replace PINx with actual pins used) */
-        col-gpios = <&xiao_d 0 GPIO_ACTIVE_LOW>,
-                    <&xiao_d 1 GPIO_ACTIVE_LOW>,
-                    <&xiao_d 2 GPIO_ACTIVE_LOW>,
-                    <&xiao_d 3 GPIO_ACTIVE_LOW>,
-                    <&xiao_d 6 GPIO_ACTIVE_LOW>,
-                    <&xiao_d 7 GPIO_ACTIVE_LOW>,
-                    <&xiao_d 8 GPIO_ACTIVE_LOW>,
-                    <&xiao_d 9 GPIO_ACTIVE_LOW>;
+        /* Cols = MCP23017 #2 pins (0-7 → GPA0..GPA7) */
+        col-gpios = <&ext2 0 GPIO_ACTIVE_LOW>,
+                    <&ext2 1 GPIO_ACTIVE_LOW>,
+                    <&ext2 2 GPIO_ACTIVE_LOW>,
+                    <&ext2 3 GPIO_ACTIVE_LOW>,
+                    <&ext2 4 GPIO_ACTIVE_LOW>,
+                    <&ext2 5 GPIO_ACTIVE_LOW>,
+                    <&ext2 6 GPIO_ACTIVE_LOW>,
+                    <&ext2 7 GPIO_ACTIVE_LOW>;
 
     };
 
